@@ -49,7 +49,7 @@ local RayfieldLibrary = {
 			SliderStroke = Color3.fromRGB(255, 255, 255),
 
 			ToggleBackground = Color3.fromRGB(30, 30, 30),
-			ToggleEnabled = Color3.fromRGB(255, 255, 255),
+			ToggleEnabled = Color3.fromRGB(0, 146, 214),
 			ToggleDisabled = Color3.fromRGB(100, 100, 100),
 			ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
 			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
@@ -88,7 +88,7 @@ local RayfieldLibrary = {
 			SliderStroke = Color3.fromRGB(42, 216, 94),
 
 			ToggleBackground = Color3.fromRGB(170, 203, 60),
-			ToggleEnabled = Color3.fromRGB(255, 255, 255),
+			ToggleEnabled = Color3.fromRGB(32, 214, 29),
 			ToggleDisabled = Color3.fromRGB(100, 22, 23),
 			ToggleEnabledStroke = Color3.fromRGB(17, 255, 0),
 			ToggleDisabledStroke = Color3.fromRGB(65, 8, 8),
@@ -2482,6 +2482,5 @@ function RayfieldLibrary:LoadConfiguration()
 	end
 end
 
-return RayfieldLibrary
-
 task.delay(3.5, RayfieldLibrary.LoadConfiguration, RayfieldLibrary)
+return RayfieldLibrary
